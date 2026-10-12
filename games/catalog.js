@@ -17,13 +17,44 @@ EB.catalog = [
   "title": "Black Ops",
   "short": "BO1",
   "year": 2010,
-  "maps": [
+  "ready": true,
+  "file": "games/bo1.js",
+  "groups": [
+   [
+    "base",
+    "Launch maps",
+    "Kino der Toten and the \"Five\" bonus"
+   ],
+   [
+    "dlc",
+    "DLC maps",
+    "First Strike · Escalation · Annihilation · Rezurrection"
+   ],
+   [
+    "rez",
+    "Rezurrection remasters",
+    "The four World at War maps, rebuilt for Black Ops"
+   ]
+  ],
+  "mains": [
+   "asc",
+   "cotd",
+   "shang",
+   "moon",
+   "derriese"
+  ],
+  "mapCount": 10,
+  "mapNames": [
    "Kino der Toten",
    "\"Five\"",
    "Ascension",
    "Call of the Dead",
    "Shangri-La",
-   "Moon"
+   "Moon",
+   "Nacht der Untoten",
+   "Verrückt",
+   "Shi No Numa",
+   "Der Riese"
   ]
  },
  {
