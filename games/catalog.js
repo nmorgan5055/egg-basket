@@ -117,7 +117,23 @@ EB.catalog = [
   "short": "AW",
   "sub": "Exo Zombies",
   "year": 2014,
-  "maps": [
+  "ready": true,
+  "file": "games/aw.js",
+  "groups": [
+   [
+    "dlc",
+    "Exo Zombies",
+    "Havoc · Ascendance · Supremacy · Reckoning"
+   ]
+  ],
+  "mains": [
+   "outbreak",
+   "infection",
+   "carrier",
+   "descent"
+  ],
+  "mapCount": 4,
+  "mapNames": [
    "Outbreak",
    "Infection",
    "Carrier",
