@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Egg Basket · CoD Zombies Easter Egg Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600;800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="style.css?v=c7a20977">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="back iconbtn" id="backBtn" href="#/" hidden>← Games</a>
+    <a class="brand" href="#/" id="brand">EGG BASKET<small id="brandSub">CoD Zombies</small></a>
+    <span class="spacer"></span>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Change theme">◐ Auto</button>
+  </div>
+</header>
+
+<main id="app"><div class="loading">Loading…</div></main>
+
+<dialog id="runDlg">
+  <form class="dlg" id="runForm" method="dialog">
+    <div>
+      <div class="label" id="runMapLabel">Log completion</div>
+      <h2 id="runTitle">Map</h2>
+    </div>
+    <div class="runs" id="runList"></div>
+    <div class="form">
+      <div class="field">
+        <label class="label" for="runDate">Date</label>
+        <input type="date" id="runDate">
+      </div>
+      <div class="field">
+        <label class="label" for="runPlayers">Players</label>
+        <select id="runPlayers"><option value="1">Solo</option><option value="2">2 players</option><option value="3">3 players</option><option value="4">4 players</option></select>
+      </div>
+      <div class="field">
+        <span class="label">Time taken</span>
+        <div class="timebox"><input id="runH" type="number" min="0" max="99" inputmode="numeric" placeholder="h" aria-label="Hours"><span>h</span><input id="runM" type="number" min="0" max="59" inputmode="numeric" placeholder="min" aria-label="Minutes"><span>m</span></div>
+      </div>
+      <div class="field">
+        <label class="label" for="runRound">Round finished</label>
+        <input id="runRound" type="number" min="1" inputmode="numeric" placeholder="e.g. 24">
+      </div>
+      <div class="field full">
+        <label class="label" for="runNotes">Notes (bow, strategy, who played…)</label>
+        <textarea id="runNotes" placeholder="Fire bow, got a lucky Thundergun on round 8"></textarea>
+      </div>
+    </div>
+    <div class="btns">
+      <button type="button" class="btn ghost" id="runCancel">Close</button>
+      <button type="submit" class="btn" id="runSave">Save completion</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Picture viewer">
+  <div class="lb-top"><span id="lbCount"></span><a id="lbOpen" href="#" target="_blank" rel="noopener">Open full size ↗</a><button type="button" id="lbClose" aria-label="Close">✕</button></div>
+  <div class="lb-stage"><img id="lbImg" alt="" referrerpolicy="no-referrer"></div>
+  <div class="lb-bottom"><button type="button" id="lbPrev" aria-label="Previous">‹</button><div class="cap" id="lbCap"></div><button type="button" id="lbNext" aria-label="Next">›</button></div>
+</div>
+
+
+<script src="games/catalog.js?v=c7a20977"></script>
+<script>window.EB_VER = 'c7a20977';</script>
+<script src="app.js?v=c7a20977"></script>
+</body>
+</html>
