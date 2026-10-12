@@ -199,7 +199,29 @@ EB.catalog = [
   "title": "Infinite Warfare",
   "short": "IW",
   "year": 2016,
-  "maps": [
+  "ready": true,
+  "file": "games/iw.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "Zombies in Spaceland"
+   ],
+   [
+    "dlc",
+    "DLC maps",
+    "Sabotage · Continuum · Absolution · Retribution"
+   ]
+  ],
+  "mains": [
+   "spaceland",
+   "rave",
+   "shaolin",
+   "radioactive",
+   "beast"
+  ],
+  "mapCount": 5,
+  "mapNames": [
    "Zombies in Spaceland",
    "Rave in the Redwoods",
    "Shaolin Shuffle",
