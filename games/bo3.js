@@ -204,7 +204,7 @@ M({
         ['Enter the safe code at the terminal by the Clock Tower. A wrong code blows the fuses out and you must time travel again (the code changes).', ['pictures/main_ee/simon_says_clocktower.webp|Clock Tower terminal']],
         ['Open the safe in the Teleporter Room and take the coils.', ['pictures/main_ee/open_safe.webp|Open safe']]
       ]},
-      { h: 'Simon Says & shoot down the rocket', steps: [
+      { h: 'Simon Says & shoot down the rocket', rec: [{ id: 'simonct', at: 2, label: 'Clock Tower Simon Says, symbols in order', type: 'seq', n: 7, opts: ['Rocket', 'Circle', 'Lightning', 'D'] }, { id: 'simonrp', at: 3, label: 'Rocket Pad Simon Says, symbols in order', type: 'seq', n: 7, opts: ['Rocket', 'Circle', 'Lightning', 'D'] }], steps: [
         ['Put a coil in each pylon on either side of the Death Ray platform.', ['pictures/main_ee/pylon_1.webp|Pylon 1', 'pictures/main_ee/pylon_2.webp|Pylon 2']],
         ['Flip the Death Ray back to "Destroy".'],
         ['Play Simon Says at the Clock Tower terminal: match the symbol on the big screen by pressing the small screen with the same symbol (~7 rounds). Dogs spawn endlessly while it runs. A mistake resets both terminals.', ['pictures/main_ee/simon_says_clocktower.webp|Clock Tower terminal', 'pictures/main_ee/death_ray_orb_glow.webp|Orb lights up when done']],
