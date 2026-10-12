@@ -421,20 +421,20 @@ M({
     ]},
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Double Pack-a-Punch', steps: [
-        ['Open the power box by Proteus and take the fuses.', ['pictures/pap/double_pap/fuse_box.webp|Fuse box', 'pictures/pap/double_pap/fuse_box_open.webp|Open']],
-        ['Put the fuses on the Sasquatch cutout\'s hand.', ['pictures/pap/double_pap/sasquatch.webp|Sasquatch']],
-        ['Take the film reel from concessions and put it in the projector.', ['pictures/pap/double_pap/film_reel.webp|Film reel', 'pictures/pap/double_pap/projector.webp|Projector']],
-        ['Entangle the vortex at the wormhole trap for the Brute helmet and put it on the Brute cutout.', ['pictures/pap/double_pap/wormhole_trap.webp|Wormhole trap', 'pictures/pap/double_pap/vortex.webp|Vortex', 'pictures/pap/double_pap/brute.webp|Brute']],
+        ['Open the power box by Proteus and take the fuses.', ['pictures/double_pap/fuse_box.webp|Fuse box', 'pictures/double_pap/fuse_box_open.webp|Open']],
+        ['Put the fuses on the Sasquatch cutout\'s hand.', ['pictures/double_pap/sasquatch.webp|Sasquatch']],
+        ['Take the film reel from concessions and put it in the projector.', ['pictures/double_pap/film_reel.webp|Film reel', 'pictures/double_pap/projector.webp|Projector']],
+        ['Entangle the vortex at the wormhole trap for the Brute helmet and put it on the Brute cutout.', ['pictures/double_pap/wormhole_trap.webp|Wormhole trap', 'pictures/double_pap/vortex.webp|Vortex', 'pictures/double_pap/brute.webp|Brute']],
         ['Take the charged fuses to the projector.']
       ]},
       { h: 'Skull Breaker (all perks)', steps: [
-        ['Skull 1: grenade a power box, then shoot the skull.', ['pictures/skull_1/box_cargo.webp|Power box', 'pictures/skull_1/skull.webp|Skull']],
-        ['Skull 2: stand on the four red Xs, grab the skull as it moves, and Entangle it.', ['pictures/skull_2/red_x_upper.webp|Red X', 'pictures/skull_2/skull_moved.webp|Moved skull']],
-        ['Skull 3: shoot the symbol that doesn\'t match.', ['pictures/skull_3/quick_ref_image.webp|Quick reference']],
+        ['Skull 1: grenade a power box, then shoot the skull.', ['pictures/skull_breaker/skull_1/box_cargo.webp|Power box', 'pictures/skull_breaker/skull_1/skull.webp|Skull']],
+        ['Skull 2: stand on the four red Xs, grab the skull as it moves, and Entangle it.', ['pictures/skull_breaker/skull_2/red_x_upper.webp|Red X', 'pictures/skull_breaker/skull_2/skull_moved.webp|Moved skull']],
+        ['Skull 3: shoot the symbol that doesn\'t match.', ['pictures/skull_breaker/skull_3/quick_ref_image.webp|Quick reference']],
         ['Skull 4: walk the pink/green path.'],
-        ['Skull 5: solve the 8 queens puzzle on the chessboard.', ['pictures/skull_5/chessboard.webp|Chessboard']],
-        ['Skull 6: enter the code from the papers.', ['pictures/skull_6/all_skull_6_codes.webp|Codes']],
-        ['Win the mini-game.']
+        ['Skull 5: solve the 8 queens puzzle on the chessboard.', ['pictures/skull_breaker/skull_5/chessboard.webp|Chessboard']],
+        ['Skull 6: enter the code from the papers.', ['pictures/skull_breaker/skull_6/all_skull_6_codes.webp|Codes']],
+        ['Win the mini-game at the Skull Breaker machine.', ['pictures/skull_breaker/skull_breaker_machine.webp|Machine']]
       ], rec: [
         { id: 'skull6', at: 5, label: 'Skull 6 code', type: 'text', ph: 'Code' }
       ] },
