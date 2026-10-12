@@ -5,7 +5,25 @@ EB.catalog = [
   "title": "World at War",
   "short": "WaW",
   "year": 2008,
-  "maps": [
+  "ready": true,
+  "file": "games/waw.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "Nacht der Untoten"
+   ],
+   [
+    "dlc",
+    "Map Packs",
+    "Verrückt · Shi No Numa · Der Riese"
+   ]
+  ],
+  "mains": [
+   "derriese"
+  ],
+  "mapCount": 4,
+  "mapNames": [
    "Nacht der Untoten",
    "Verrückt",
    "Shi No Numa",
