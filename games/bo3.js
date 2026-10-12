@@ -145,19 +145,19 @@ M({
   tabs: [
     { id: 'main', label: 'Main Quest', main: true, sections: [
       { h: 'Power & Pack-a-Punch', steps: [
-        ['Turn on the power switch at the back middle of the map.', ['pictures/pap/power_switch.webp|Power switch']],
-        ['Link each teleporter: activate it, then reach the mainframe in spawn within 30 s. Teleporter A is left of spawn, B is right of spawn, C is past the power switch.', ['pictures/pap/tele_a.webp|Teleporter A', 'pictures/pap/tele_b.webp|Teleporter B', 'pictures/pap/tele_c.webp|Teleporter C', 'pictures/pap/mainframe.webp|Mainframe', 'pictures/pap/clock.webp|30 s timer']],
+        ['Turn on the power switch at the back middle of the map.', ['pictures/pap/power_switch.webp|Power switch|Original Der Riese']],
+        ['Link each teleporter: activate it, then reach the mainframe in spawn within 30 s. Teleporter A is left of spawn, B is right of spawn, C is past the power switch.', ['pictures/pap/tele_a.webp|Teleporter A|Original Der Riese', 'pictures/pap/tele_b.webp|Teleporter B|Original Der Riese', 'pictures/pap/tele_c.webp|Teleporter C|Original Der Riese', 'pictures/pap/mainframe.webp|Mainframe|Original Der Riese', 'pictures/pap/clock.webp|30 s timer|Original Der Riese']],
         ['After the third link the mainframe door opens. Pack-a-Punch a bullet weapon.']
       ]},
       { h: 'Fly Trap → Annihilator', note: 'Takes 5–20 minutes. Works solo.', steps: [
-        ['Facing right from PaP, shoot the control panel near the zombie spawn on that side with your PaP\'d weapon. Objects fly around it and float away.', ['pictures/main_ee/panel.webp|Panel', 'pictures/main_ee/panel_zoomed_out.webp|Panel (wide)']],
+        ['Facing right from PaP, shoot the control panel near the zombie spawn on that side with your PaP\'d weapon. Objects fly around it and float away.', ['pictures/main_ee/panel.webp|Panel|Original Der Riese', 'pictures/main_ee/panel_zoomed_out.webp|Panel (wide)|Original Der Riese']],
         ['Hit the three floating objects (shoot, melee or grenade). Maxis talks after each one: furnace left of the right-most stairs (Teleporter A side), fire escape left of the power switch near the roof, left water tank as you enter Teleporter B.', ['pictures/main_ee/toy_furnace_bo3.webp|Furnace (A)', 'pictures/main_ee/toy_power_bo3.webp|Fire escape (power)', 'pictures/main_ee/toy_tele_b_bo3.webp|Water tank (B)']],
         ['After the dialogue, take the Annihilator from the furnace in the garage below Teleporter B. Picking it up completes the quest.', ['pictures/main_ee/annihilator.webp|Annihilator']]
       ]}
     ]},
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "Beauty of Annihilation" (remix)', steps: [
-        ['Hold interact on three brain jars (no sound, the jar just goes quiet): Animal Testing shelf at the foot of the Jug stairs, right of the Jug stairs, and the table by the chalkboard in the Teleporter B side room.', ['pictures/song_ee/jar_shelf.webp|Shelf jar', 'pictures/song_ee/jar_stairs.webp|Stairs jar', 'pictures/song_ee/jar_tele_b.webp|Teleporter B jar']]
+        ['Hold interact on three brain jars (no sound, the jar just goes quiet): Animal Testing shelf at the foot of the Jug stairs, right of the Jug stairs, and the table by the chalkboard in the Teleporter B side room.', ['pictures/song_ee/jar_shelf.webp|Shelf jar|Original Der Riese', 'pictures/song_ee/jar_stairs.webp|Stairs jar|Original Der Riese', 'pictures/song_ee/jar_tele_b.webp|Teleporter B jar|Original Der Riese']]
       ]},
       { h: 'Secret perk (Deadshot or Stamin-Up)', steps: [
         ['After PaP, get Monkey Bombs from the box.'],
@@ -679,7 +679,7 @@ M({
         ['Shoot all thirty explosive barrels outside the map. <a href="https://youtu.be/ETCTukd0O-c" target="_blank" rel="noopener">Barrel locations video ↗</a>']
       ]},
       { h: 'Song radio', steps: [
-        ['Shoot or melee the radio on the table right of the Mystery Box. Shoot it again to skip songs.', ['pictures/radio.webp|Radio']]
+        ['Shoot or melee the radio on the table right of the Mystery Box. Shoot it again to skip songs.', ['pictures/radio.webp|Radio|World at War / BO1']]
       ]}
     ]}
   ]
@@ -696,7 +696,7 @@ M({
   tabs: [
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "Lullaby of a Dead Man"', steps: [
-        ['In the bathroom near the power room (Double Tap side), flush the left-most toilet three times.', ['pictures/song_ee/toilet.webp|Left toilet']]
+        ['In the bathroom near the power room (Double Tap side), flush the left-most toilet three times.', ['pictures/song_ee/toilet.webp|Left toilet|World at War / BO1']]
       ]},
       { h: 'Song: "Samantha\'s Sorrow" + free Max Ammo', steps: [
         ['In the same bathroom, flush the right toilet 9 times, the middle 3 times, then the left 5 times. Listen for a scream.'],
@@ -719,7 +719,7 @@ M({
   tabs: [
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "The One"', steps: [
-        ['In the Comms Room, interact with the phone three times.', ['pictures/song_ee/phone.webp|Phone']]
+        ['In the Comms Room, interact with the phone three times.', ['pictures/song_ee/phone.webp|Phone|World at War / BO1']]
       ]},
       { h: 'Song: "Samantha\'s Sorrow" + free Max Ammo', steps: [
         ['With the starting 1911, quickly shoot the four silver pans hanging in the Fishing Hut. A scream confirms it.', ['pictures/free_max_ammo/plate_1.webp|Pan 1', 'pictures/free_max_ammo/plate_2.webp|Pan 2', 'pictures/free_max_ammo/plate_3.webp|Pan 3', 'pictures/free_max_ammo/plate_4.webp|Pan 4']],
@@ -742,13 +742,13 @@ M({
   tabs: [
     { id: 'basics', label: 'Power & PaP', sections: [
       { h: 'Power & teleporter', steps: [
-        ['Turn on the power switch on the stage.', ['pictures/power/power.webp|Power switch']],
-        ['Use the mainframe on the stage, then the pad in the spawn room to link. Take the stage teleporter to PaP — you have 30 s before you are sent back.', ['pictures/pap/mainframe.webp|Mainframe', 'pictures/pap/teleporter_pad.webp|Spawn pad']]
+        ['Turn on the power switch on the stage.', ['pictures/power/power.webp|Power switch|Black Ops 1']],
+        ['Use the mainframe on the stage, then the pad in the spawn room to link. Take the stage teleporter to PaP — you have 30 s before you are sent back.', ['pictures/pap/mainframe.webp|Mainframe|Black Ops 1', 'pictures/pap/teleporter_pad.webp|Spawn pad|Black Ops 1']]
       ]}
     ]},
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "115"', steps: [
-        ['Interact with three meteor rocks: in a jar under the stairs near Quick Revive, on a stand by the mannequins behind the dressing-room wallbuy, and on the letter shelf in the upstairs alley room.', ['pictures/song_ee/rock_spawn.webp|Spawn jar', 'pictures/song_ee/rock_dressing_room.webp|Dressing room', 'pictures/song_ee/rock_alley.webp|Alley room']]
+        ['Interact with three meteor rocks: in a jar under the stairs near Quick Revive, on a stand by the mannequins behind the dressing-room wallbuy, and on the letter shelf in the upstairs alley room.', ['pictures/song_ee/rock_spawn.webp|Spawn jar|Black Ops 1', 'pictures/song_ee/rock_dressing_room.webp|Dressing room|Black Ops 1', 'pictures/song_ee/rock_alley.webp|Alley room|Black Ops 1']]
       ]},
       { h: 'Song: "Samantha\'s Sorrow" + free Max Ammo', rec: [{ id: 'knock1', at: 0, label: 'Knock pattern 1', type: 'nums', n: 3 }, { id: 'knock2', at: 0, label: 'Knock pattern 2', type: 'nums', n: 3 }, { id: 'knock3', at: 0, label: 'Knock pattern 3', type: 'nums', n: 3 }], steps: [
         ['Stand by the blue door in the alley and count the three knock patterns. Melee the door with the same counts, pausing between groups.', ['pictures/free_max_ammo/blue_door.webp|Blue door']],
@@ -758,11 +758,11 @@ M({
       ]},
       { h: 'Film reels', steps: [
         ['After a PaP trip you land in one of four random rooms; some have a film reel. Grab it.'],
-        ['Play it in the projector in the PaP room. There are three reels.', ['pictures/film_reels/projector.webp|Projector']]
+        ['Play it in the projector in the PaP room. There are three reels.', ['pictures/film_reels/projector.webp|Projector|Black Ops 1']]
       ]},
       { h: 'Model rocket launch', steps: [
-        ['With power on, jump 5 times in front of the left mannequin by the Speed Cola door in the dressing room.', ['pictures/rocket_launch/mannequins.webp|Mannequins']],
-        ['Teleport until you land in the Pentagon-style room and interact with the rocket model.', ['pictures/rocket_launch/rocket.webp|Rocket']]
+        ['With power on, jump 5 times in front of the left mannequin by the Speed Cola door in the dressing room.', ['pictures/rocket_launch/mannequins.webp|Mannequins|Black Ops 1']],
+        ['Teleport until you land in the Pentagon-style room and interact with the rocket model.', ['pictures/rocket_launch/rocket.webp|Rocket|Black Ops 1']]
       ]}
     ]}
   ]
@@ -779,32 +779,32 @@ M({
   tabs: [
     { id: 'main', label: 'Main Quest', main: true, sections: [
       { h: 'Before you start', note: 'Needs 4 players — the button node can\'t be done with fewer. About 1.5 hours. Reward: Death Machine and all perks.', steps: [
-        ['Turn on the power at the top of the central building.', ['pictures/power/power_switch.webp|Power switch']],
-        ['Open Pack-a-Punch: ride the lander from the PhD/Widow\'s, Stamin-Up and Speed Cola stations back to spawn, then press the launch button by the power switch. PaP is in the room under the rocket.', ['pictures/pap/station_phd.webp|PhD station', 'pictures/pap/station_staminup.webp|Stamin-Up station', 'pictures/pap/station_speed_cola.webp|Speed Cola station', 'pictures/pap/rocket_launch_button.webp|Launch button']],
+        ['Turn on the power at the top of the central building.', ['pictures/power/power_switch.webp|Power switch|Black Ops 1']],
+        ['Open Pack-a-Punch: ride the lander from the PhD/Widow\'s, Stamin-Up and Speed Cola stations back to spawn, then press the launch button by the power switch. PaP is in the room under the rocket.', ['pictures/pap/station_phd.webp|PhD station|Black Ops 1', 'pictures/pap/station_staminup.webp|Stamin-Up station|Black Ops 1', 'pictures/pap/station_speed_cola.webp|Speed Cola station|Black Ops 1', 'pictures/pap/rocket_launch_button.webp|Launch button|Black Ops 1']],
         ['Get an upgraded Ray Gun Mk2, upgraded Thundergun, Gersh Devices and Matryoshka Dolls from the box (spread them across players).']
       ]},
       { h: 'Node 1 — generator', steps: [
-        ['Throw a Gersh Device at the sparking generator outside the map near the PhD/Widow\'s lander.', ['pictures/main_ee/gersh_generator.webp|Generator']],
-        ['Interact with the TV in the flooded area under the stairs at the Stamin-Up lander. The crashed module nearby shows one light per node.', ['pictures/main_ee/tv.webp|TV', 'pictures/main_ee/rocket_module.webp|Progress lights']]
+        ['Throw a Gersh Device at the sparking generator outside the map near the PhD/Widow\'s lander.', ['pictures/main_ee/gersh_generator.webp|Generator|Black Ops 1']],
+        ['Interact with the TV in the flooded area under the stairs at the Stamin-Up lander. The crashed module nearby shows one light per node.', ['pictures/main_ee/tv.webp|TV|Black Ops 1', 'pictures/main_ee/rocket_module.webp|Progress lights|Black Ops 1']]
       ]},
       { h: 'Node 2 — perk buttons', steps: [
-        ['On the next space-monkey round (someone must own a perk), four buttons appear by Jug, PhD/Widow\'s, Speed Cola and Stamin-Up. All four players press one at the same time.', ['pictures/main_ee/jug_button.webp|Jug', 'pictures/main_ee/phd_button.webp|PhD/Widow\'s', 'pictures/main_ee/speed_cola_button.webp|Speed Cola', 'pictures/main_ee/staminup_button.webp|Stamin-Up']]
+        ['On the next space-monkey round (someone must own a perk), four buttons appear by Jug, PhD/Widow\'s, Speed Cola and Stamin-Up. All four players press one at the same time.', ['pictures/main_ee/jug_button.webp|Jug|Black Ops 1', 'pictures/main_ee/phd_button.webp|PhD/Widow\'s|Black Ops 1', 'pictures/main_ee/speed_cola_button.webp|Speed Cola|Black Ops 1', 'pictures/main_ee/staminup_button.webp|Stamin-Up|Black Ops 1']]
       ]},
       { h: 'Node 3 — pressure plate', steps: [
-        ['Leave a crawler, then everyone stands on the round plate under the rocket\'s old spot by PaP for two straight minutes. The knife on the wall clock tracks progress; a Nuke drops when done.', ['pictures/main_ee/pressure_plate.webp|Plate', 'pictures/main_ee/clock.webp|Clock']]
+        ['Leave a crawler, then everyone stands on the round plate under the rocket\'s old spot by PaP for two straight minutes. The knife on the wall clock tracks progress; a Nuke drops when done.', ['pictures/main_ee/pressure_plate.webp|Plate|Black Ops 1', 'pictures/main_ee/clock.webp|Clock|Black Ops 1']]
       ]},
       { h: 'Node 4 — spell LUNA', steps: [
-        ['While a lander is flying, letters appear in the sky. Fly through L, U, N, A in order and avoid the others.', ['pictures/main_ee/letter_in_sky.webp|Letters']],
+        ['While a lander is flying, letters appear in the sky. Fly through L, U, N, A in order and avoid the others.', ['pictures/main_ee/letter_in_sky.webp|Letters|Black Ops 1']],
         ['Fast route: Spawn→Stamin-Up (L), Stamin-Up→Spawn (U), Spawn→Speed Cola (N), Speed Cola→Stamin-Up (A).']
       ]},
       { h: 'Node 5 — free Gersh', steps: [
-        ['Throw a Gersh Device onto the white orb in front of the crashed module by the Stamin-Up lander.', ['pictures/main_ee/white_orb.webp|White orb']],
+        ['Throw a Gersh Device onto the white orb in front of the crashed module by the Stamin-Up lander.', ['pictures/main_ee/white_orb.webp|White orb|Black Ops 1']],
         ['While it pulls, shoot it with the upgraded Thundergun and Ray Gun Mk2 and throw a Matryoshka Doll at it until the orb rises and Gersh thanks you.']
       ]}
     ]},
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "Abracadavre"', steps: [
-        ['Interact with three teddy bears: spawn upper level left of the RK5, top of the wall at the Speed Cola station, behind the fence at the Stamin-Up station.', ['pictures/song_ee/bear_spawn.webp|Spawn', 'pictures/song_ee/bear_speed_cola.webp|Speed Cola', 'pictures/song_ee/bear_staminup.webp|Stamin-Up']]
+        ['Interact with three teddy bears: spawn upper level left of the RK5, top of the wall at the Speed Cola station, behind the fence at the Stamin-Up station.', ['pictures/song_ee/bear_spawn.webp|Spawn|Black Ops 1', 'pictures/song_ee/bear_speed_cola.webp|Speed Cola|Black Ops 1', 'pictures/song_ee/bear_staminup.webp|Stamin-Up|Black Ops 1']]
       ]},
       { h: 'Song: "Samantha\'s Sorrow" + free Max Ammo', steps: [
         ['After PaP, throw Gersh Devices at three dolls: on a pipe under the PaP walkway, on the railing at the Widow\'s lander, on the beam above Stamin-Up.', ['pictures/free_max_ammo/doll_pap.webp|PaP doll', 'pictures/free_max_ammo/doll_widows_wine_zoomed.webp|Widow\'s doll', 'pictures/free_max_ammo/doll_stamin_up.webp|Stamin-Up doll']],
@@ -813,7 +813,7 @@ M({
         ['Interact with the bush doll again for the song and a Max Ammo.']
       ]},
       { h: 'Ultimis Matryoshka dolls', steps: [
-        ['Interact with four character dolls: Takeo by PhD/Widow\'s, Richtofen on a desk above Jug, Nikolai left of Speed Cola, Dempsey by the trip mine wallbuy.', ['pictures/ultimis_dolls/takeo.webp|Takeo', 'pictures/ultimis_dolls/richtofen.webp|Richtofen', 'pictures/ultimis_dolls/nikolai.webp|Nikolai', 'pictures/ultimis_dolls/dempsey.webp|Dempsey']]
+        ['Interact with four character dolls: Takeo by PhD/Widow\'s, Richtofen on a desk above Jug, Nikolai left of Speed Cola, Dempsey by the trip mine wallbuy.', ['pictures/ultimis_dolls/takeo.webp|Takeo|Black Ops 1', 'pictures/ultimis_dolls/richtofen.webp|Richtofen|Black Ops 1', 'pictures/ultimis_dolls/nikolai.webp|Nikolai|Black Ops 1', 'pictures/ultimis_dolls/dempsey.webp|Dempsey|Black Ops 1']]
       ]}
     ]}
   ]
@@ -830,44 +830,44 @@ M({
   tabs: [
     { id: 'main', label: 'Main Quest', main: true, sections: [
       { h: 'Before you start', note: 'Needs 4 players — Eclipse mode takes four buttons at once. Each Eclipse lasts 5 minutes; a failed step just ends it. Reward: the picker gets all perks (repeatable once per player).', steps: [
-        ['Turn on both power switches in the mine room under spawn.', ['pictures/power/power.webp|Power']],
-        ['Open PaP: all players stand on the four statue plates at once (spawn by Quick Revive, bottom of the rope bridge, between the power switches, halfway down the tunnel).', ['pictures/pap/statue_spawn.webp|Spawn', 'pictures/pap/statue_rope_bridge.webp|Rope bridge', 'pictures/pap/statue_power.webp|Power', 'pictures/pap/statue_tunnel.webp|Tunnel']],
+        ['Turn on both power switches in the mine room under spawn.', ['pictures/power/power.webp|Power|Black Ops 1']],
+        ['Open PaP: all players stand on the four statue plates at once (spawn by Quick Revive, bottom of the rope bridge, between the power switches, halfway down the tunnel).', ['pictures/pap/statue_spawn.webp|Spawn|Black Ops 1', 'pictures/pap/statue_rope_bridge.webp|Rope bridge|Black Ops 1', 'pictures/pap/statue_power.webp|Power|Black Ops 1', 'pictures/pap/statue_tunnel.webp|Tunnel|Black Ops 1']],
         ['Get the 31-79 JGb215 (shrink gun) from the box and keep it.'],
-        ['Enter the Eclipse: all four players press the corner buttons around Quick Revive together.', ['pictures/main_ee/buttons_to_enter_eclipse.webp|Eclipse buttons']]
+        ['Enter the Eclipse: all four players press the corner buttons around Quick Revive together.', ['pictures/main_ee/buttons_to_enter_eclipse.webp|Eclipse buttons|Black Ops 1']]
       ]},
       { h: 'Crystal 1 — symbol tiles', steps: [
-        ['Press the button on the brick structure by the MPL wallbuy (mine cart side). 24 tiles rise.', ['pictures/main_ee/button_mpl.webp|Button']],
-        ['Two players stand on tiles to reveal symbols; match all 12 pairs. A wrong match resets.', ['pictures/main_ee/shangri_la_symbols.webp|Symbol cheat sheet', 'pictures/main_ee/crystal_ball_1.webp|Crystal 1']]
+        ['Press the button on the brick structure by the MPL wallbuy (mine cart side). 24 tiles rise.', ['pictures/main_ee/button_mpl.webp|Button|Black Ops 1']],
+        ['Two players stand on tiles to reveal symbols; match all 12 pairs. A wrong match resets.', ['pictures/main_ee/shangri_la_symbols.webp|Symbol cheat sheet|Black Ops 1', 'pictures/main_ee/crystal_ball_1.webp|Crystal 1|Black Ops 1']]
       ]},
       { h: 'Crystal 2 — slide lever', steps: [
-        ['Three players stand on the grate at the bottom of the water slide; the fourth slides down mashing interact on the right-side lever.', ['pictures/main_ee/slide_grate.webp|Grate', 'pictures/main_ee/water_slide_lever.webp|Lever', 'pictures/main_ee/crystal_ball_2.webp|Crystal 2']]
+        ['Three players stand on the grate at the bottom of the water slide; the fourth slides down mashing interact on the right-side lever.', ['pictures/main_ee/slide_grate.webp|Grate|Black Ops 1', 'pictures/main_ee/water_slide_lever.webp|Lever|Black Ops 1', 'pictures/main_ee/crystal_ball_2.webp|Crystal 2|Black Ops 1']]
       ]},
       { h: 'Crystal 3 — shrink the ball', steps: [
-        ['Knock the ball above the water slide down with an explosive, shrink it with the shrink gun, knife it down the slide, and stand on the geyser to launch it.', ['pictures/main_ee/ball_above_slide.webp|Ball', 'pictures/main_ee/ball_in_geyser.webp|In geyser', 'pictures/main_ee/crystal_ball_3.webp|Crystal 3']]
+        ['Knock the ball above the water slide down with an explosive, shrink it with the shrink gun, knife it down the slide, and stand on the geyser to launch it.', ['pictures/main_ee/ball_above_slide.webp|Ball|Black Ops 1', 'pictures/main_ee/ball_in_geyser.webp|In geyser|Black Ops 1', 'pictures/main_ee/crystal_ball_3.webp|Crystal 3|Black Ops 1']]
       ]},
       { h: 'Crystal 4 — ignite the gas', steps: [
-        ['Turn the valve in the mine-cart tunnel four times. Lure a Napalm zombie past all three gas leaks without letting it explode on you, then pull the lever by the valve.', ['pictures/main_ee/valve.webp|Valve', 'pictures/main_ee/gas_pipe_mystery_box.webp|Leak', 'pictures/main_ee/gas_lever.webp|Lever', 'pictures/main_ee/crystal_ball_4.webp|Crystal 4']]
+        ['Turn the valve in the mine-cart tunnel four times. Lure a Napalm zombie past all three gas leaks without letting it explode on you, then pull the lever by the valve.', ['pictures/main_ee/valve.webp|Valve|Black Ops 1', 'pictures/main_ee/gas_pipe_mystery_box.webp|Leak|Black Ops 1', 'pictures/main_ee/gas_lever.webp|Lever|Black Ops 1', 'pictures/main_ee/crystal_ball_4.webp|Crystal 4|Black Ops 1']]
       ]},
       { h: 'Crystal 5 — plug the holes', steps: [
-        ['Buy trip mines in the power room. Set one off in front of each of the four holes on the left wall of the waterfall tunnel. Press the brick in the waterfall pool.', ['pictures/main_ee/hole.webp|Hole', 'pictures/main_ee/brick_to_push.webp|Brick', 'pictures/main_ee/crystal_ball_5.webp|Crystal 5']]
+        ['Buy trip mines in the power room. Set one off in front of each of the four holes on the left wall of the waterfall tunnel. Press the brick in the waterfall pool.', ['pictures/main_ee/hole.webp|Hole|Black Ops 1', 'pictures/main_ee/brick_to_push.webp|Brick|Black Ops 1', 'pictures/main_ee/crystal_ball_5.webp|Crystal 5|Black Ops 1']]
       ]},
       { h: 'Crystal 6 — tiles & dials', steps: [
-        ['Melee all 12 wall symbol tiles so they glow (mine cart, spawn, mud room, waterfall, power room).', ['pictures/main_ee/tile_minecart_start.webp|Tile', 'pictures/main_ee/tile_power.webp|Tile']],
-        ['Blow up the teepee outside the map near the mine-cart start (ends the Eclipse). Re-enter it.', ['pictures/main_ee/teepee.webp|Teepee']],
-        ['Set the four mud room dials to 4, 3, 16, 1 (start left coming from spawn, go clockwise; " = 10, | = 5, • = 1).', ['pictures/main_ee/shang_dials_cheat_sheet.webp|Dial cheat sheet', 'pictures/main_ee/crystal_ball_6.webp|Crystal 6']]
+        ['Melee all 12 wall symbol tiles so they glow (mine cart, spawn, mud room, waterfall, power room).', ['pictures/main_ee/tile_minecart_start.webp|Tile|Black Ops 1', 'pictures/main_ee/tile_power.webp|Tile|Black Ops 1']],
+        ['Blow up the teepee outside the map near the mine-cart start (ends the Eclipse). Re-enter it.', ['pictures/main_ee/teepee.webp|Teepee|Black Ops 1']],
+        ['Set the four mud room dials to 4, 3, 16, 1 (start left coming from spawn, go clockwise; " = 10, | = 5, • = 1).', ['pictures/main_ee/shang_dials_cheat_sheet.webp|Dial cheat sheet|Black Ops 1', 'pictures/main_ee/crystal_ball_6.webp|Crystal 6|Black Ops 1']]
       ]},
       { h: 'Dynamite & meteor', rec: [{ id: 'gongs', at: 1, label: 'Correct gongs (stay the same all game)', type: 'multi', opts: ['Rope bridge bottom', 'Rope bridge top, left of L-CAR', 'Rope bridge top, right of L-CAR', 'Mud room toward spawn', 'Spawn, left of Sheiva', 'Mine cart start', 'Down the mine-cart slope', 'Right of the tunnel'] }], steps: [
         ['Pack-a-Punch the shrink gun into the Fractalizer.'],
-        ['Melee the four correct gongs out of eight (trial and error; correct ones stay the same). The crystals glow gold.', ['pictures/main_ee/gong_rope_bottom.webp|Gong', 'pictures/main_ee/glowing_crystals.webp|Gold crystals']],
-        ['While they glow, stand under the crystal above the mine-cart geyser and shoot it with the Fractalizer to catch the dynamite.', ['pictures/main_ee/crystal_with_dynamite.webp|Dynamite crystal']],
-        ['Still glowing, shoot the crystal above the mud room. The beam bounces through all six and shrinks the meteor above PaP.', ['pictures/main_ee/crystal_to_shoot.webp|Crystal to shoot', 'pictures/main_ee/big_meteor.webp|Meteor']],
-        ['Raise the PaP stairs, let Brock and Gary talk, then give Brock the dynamite through the hole in the wall.', ['pictures/main_ee/wall_with_hole.webp|Wall']],
-        ['Everyone runs down to end the Eclipse. Go back up and take the Focusing Stone from the altar.', ['pictures/main_ee/stone_on_altar.webp|Focusing Stone']]
+        ['Melee the four correct gongs out of eight (trial and error; correct ones stay the same). The crystals glow gold.', ['pictures/main_ee/gong_rope_bottom.webp|Gong|Black Ops 1', 'pictures/main_ee/glowing_crystals.webp|Gold crystals|Black Ops 1']],
+        ['While they glow, stand under the crystal above the mine-cart geyser and shoot it with the Fractalizer to catch the dynamite.', ['pictures/main_ee/crystal_with_dynamite.webp|Dynamite crystal|Black Ops 1']],
+        ['Still glowing, shoot the crystal above the mud room. The beam bounces through all six and shrinks the meteor above PaP.', ['pictures/main_ee/crystal_to_shoot.webp|Crystal to shoot|Black Ops 1', 'pictures/main_ee/big_meteor.webp|Meteor|Black Ops 1']],
+        ['Raise the PaP stairs, let Brock and Gary talk, then give Brock the dynamite through the hole in the wall.', ['pictures/main_ee/wall_with_hole.webp|Wall|Black Ops 1']],
+        ['Everyone runs down to end the Eclipse. Go back up and take the Focusing Stone from the altar.', ['pictures/main_ee/stone_on_altar.webp|Focusing Stone|Black Ops 1']]
       ]}
     ]},
     { id: 'side', label: 'Side Eggs', sections: [
       { h: 'Song: "Pareidolia"', steps: [
-        ['Interact with three red meteors: spawn right of the spikes to the mine carts, the mine-cart track room by the barbed wire, top of the rope bridge facing the waterfall.', ['pictures/song_ee/meteor_spawn_bo3.webp|Spawn', 'pictures/song_ee/meteor_underground.webp|Underground', 'pictures/song_ee/meteor_rope_bridge.webp|Rope bridge']]
+        ['Interact with three red meteors: spawn right of the spikes to the mine carts, the mine-cart track room by the barbed wire, top of the rope bridge facing the waterfall.', ['pictures/song_ee/meteor_spawn_bo3.webp|Spawn', 'pictures/song_ee/meteor_underground.webp|Underground|Black Ops 1', 'pictures/song_ee/meteor_rope_bridge.webp|Rope bridge|Black Ops 1']]
       ]},
       { h: 'Song: "Samantha\'s Sorrow" + free Max Ammo', rec: [{ id: 'gongs', at: 0, label: 'Correct gongs (same as the main quest)', type: 'multi', opts: ['Rope bridge bottom', 'Rope bridge top, left of L-CAR', 'Rope bridge top, right of L-CAR', 'Mud room toward spawn', 'Spawn, left of Sheiva', 'Mine cart start', 'Down the mine-cart slope', 'Right of the tunnel'] }], steps: [
         ['Keep your starting 1911. Melee the four correct gongs within a minute.', ['pictures/free_max_ammo/gong_shieva.webp|Gong']],

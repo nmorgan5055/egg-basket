@@ -432,8 +432,8 @@
           '<div class="body"><div class="left"><p class="txt"><span class="num">' + num + '.</span> ' + x.s.t + (tags.length ? tags.map(t => '<span class="tag">' + esc(t) + '</span>').join('') : '') + '</p>' +
           recHTML(m, (sec.rec || []).filter(r => r.at != null && [].concat(r.at).includes(x.i)), true) + '</div>' +
           (S.prefs.pics && x.s.i && x.s.i.length ? '<div class="thumbs">' + x.s.i.map((im, ii) => {
-            const [p, cap] = im.split('|');
-            return '<button type="button" class="thumb" data-gal="' + x.k + '" data-idx="' + ii + '"><img loading="lazy" referrerpolicy="no-referrer" alt="' + esc(cap || '') + '" src="' + esc(imgUrl(m, p)) + '"><span>' + esc(cap || '') + '</span></button>';
+            const [p, cap, era] = im.split('|');
+            return '<button type="button" class="thumb' + (era ? ' oldver' : '') + '" data-gal="' + x.k + '" data-idx="' + ii + '">' + (era ? '<em class="era" title="This picture was taken in an older version of the map. The location is the same.">' + esc(era) + ' screenshot</em>' : '') + '<img loading="lazy" referrerpolicy="no-referrer" alt="' + esc(cap || '') + '" src="' + esc(imgUrl(m, p)) + '"><span>' + esc(cap || '') + '</span></button>';
           }).join('') + '</div>' : '') +
           '</div></li>';
       });
@@ -497,10 +497,10 @@
   let LB = null;
   function openLightbox(m, imgs, idx) { LB = { m, imgs, idx }; showLB(); $('#lightbox').hidden = false; document.body.style.overflow = 'hidden'; }
   function showLB() {
-    const [p, cap] = LB.imgs[LB.idx].split('|');
+    const [p, cap, era] = LB.imgs[LB.idx].split('|');
     const url = imgUrl(LB.m, p);
     $('#lbImg').src = url; $('#lbImg').alt = cap || '';
-    $('#lbCap').textContent = cap || '';
+    $('#lbCap').textContent = (cap || '') + (era ? '  ·  ' + era + ' screenshot (same spot, older graphics)' : '');
     $('#lbOpen').href = url;
     $('#lbCount').textContent = (LB.idx + 1) + ' / ' + LB.imgs.length;
     $('#lbPrev').disabled = $('#lbNext').disabled = LB.imgs.length < 2;
