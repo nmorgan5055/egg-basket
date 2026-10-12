@@ -31,7 +31,29 @@ EB.catalog = [
   "title": "Black Ops II",
   "short": "BO2",
   "year": 2012,
-  "maps": [
+  "ready": true,
+  "file": "games/bo2.js",
+  "groups": [
+   [
+    "base",
+    "Launch maps",
+    "TranZit and the Nuketown bonus"
+   ],
+   [
+    "dlc",
+    "DLC maps",
+    "Revolution · Uprising · Vengeance · Apocalypse"
+   ]
+  ],
+  "mains": [
+   "tranzit",
+   "dierise",
+   "motd",
+   "buried",
+   "origins"
+  ],
+  "mapCount": 6,
+  "mapNames": [
    "TranZit",
    "Nuketown Zombies",
    "Die Rise",
