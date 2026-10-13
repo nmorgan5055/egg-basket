@@ -271,7 +271,32 @@ EB.catalog = [
   "title": "Black Ops 4",
   "short": "BO4",
   "year": 2018,
-  "maps": [
+  "ready": true,
+  "file": "games/bo4.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "IX · Voyage of Despair · Blood of the Dead"
+   ],
+   [
+    "dlc",
+    "Black Ops Pass",
+    "Classified · Dead of the Night · Ancient Evil · Alpha Omega · Tag der Toten"
+   ]
+  ],
+  "mains": [
+   "ix",
+   "vod",
+   "botd",
+   "classified",
+   "dotn",
+   "ae",
+   "ao",
+   "tdt"
+  ],
+  "mapCount": 8,
+  "mapNames": [
    "IX",
    "Voyage of Despair",
    "Blood of the Dead",
