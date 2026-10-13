@@ -235,7 +235,29 @@ EB.catalog = [
   "short": "WW2",
   "sub": "Nazi Zombies",
   "year": 2017,
-  "maps": [
+  "ready": true,
+  "file": "games/ww2.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "The Final Reich · Groesten Haus"
+   ],
+   [
+    "dlc",
+    "DLC maps",
+    "The Resistance · The War Machine · United Front · Shadow War"
+   ]
+  ],
+  "mains": [
+   "reich",
+   "shore",
+   "throne",
+   "tortured",
+   "frozen"
+  ],
+  "mapCount": 6,
+  "mapNames": [
    "The Final Reich",
    "Groesten Haus",
    "The Darkest Shore",
