@@ -312,9 +312,32 @@ EB.catalog = [
   "title": "Black Ops Cold War",
   "short": "CW",
   "year": 2020,
-  "maps": [
+  "ready": true,
+  "file": "games/cw.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "Die Maschine"
+   ],
+   [
+    "dlc",
+    "Seasonal maps",
+    "Firebase Z · Outbreak · Mauer der Toten · Forsaken"
+   ]
+  ],
+  "mains": [
+   "dm",
+   "fbz",
+   "outbreak",
+   "mauer",
+   "forsaken"
+  ],
+  "mapCount": 5,
+  "mapNames": [
    "Die Maschine",
    "Firebase Z",
+   "Outbreak",
    "Mauer der Toten",
    "Forsaken"
   ]
