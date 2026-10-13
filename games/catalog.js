@@ -347,7 +347,27 @@ EB.catalog = [
   "title": "Vanguard",
   "short": "VG",
   "year": 2021,
-  "maps": [
+  "ready": true,
+  "file": "games/vg.js",
+  "groups": [
+   [
+    "base",
+    "Base game",
+    "Der Anfang"
+   ],
+   [
+    "dlc",
+    "Seasonal maps",
+    "Terra Maledicta · Shi No Numa Reborn · The Archon"
+   ]
+  ],
+  "mains": [
+   "terra",
+   "snnr",
+   "archon"
+  ],
+  "mapCount": 4,
+  "mapNames": [
    "Der Anfang",
    "Terra Maledicta",
    "Shi No Numa Reborn",
